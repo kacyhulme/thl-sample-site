@@ -1,4 +1,5 @@
 /node_modules
 .sass-cache/
-public/stylesheets/styles.css.map
+public/stylesheets/main.css
+public/stylesheets/main.css.map
 extra.css
