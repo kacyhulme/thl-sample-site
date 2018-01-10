@@ -1,0 +1,73 @@
+@import "variables";
+
+body {
+  font-family: $font-subtext;
+
+  .navbar-brand.title {
+    color: $accent-blue;
+    font-family: $font-title;
+  }
+  .navbar {
+    margin-bottom: 0;
+  }
+
+  #carousel-example-generic {
+    font-family: $font-subtext;
+    .carousel-content {
+      position: absolute;
+      bottom: 44%;
+      width: 80%;
+      margin: 0 10%;
+      z-index: 20;
+      color: white;
+
+      button {
+        background-color: transparent;
+        border: 1px solid $white;
+        color: $white;
+      }
+    }
+  }
+}
+
+#main {
+  font-family: $font-subtext;
+
+  .product-tiles {
+    color: $grey-text;
+    padding: $padding-large;
+
+    .product-tile {
+      padding: 30px 15px 10px 15px;
+    }
+    .icon-wrapper {
+      border: 1px solid $accent-blue;
+      border-radius: 25px;
+      width: 50px;
+      height: 50px;
+      margin: 0 50%;
+      .fa {
+        color: $accent-blue;
+      }
+    }
+    .btn.btn-default {
+      background-color: $accent-blue;
+      color: $white;
+      border: none;
+    }
+  }
+
+  .image-tiles {
+    padding: $padding-small;
+    .image-tile {
+      /* margin: 20px;
+      padding: 20px;*/
+    }
+  }
+
+  .testimonials {
+  }
+
+  .contact-us {
+  }
+}
