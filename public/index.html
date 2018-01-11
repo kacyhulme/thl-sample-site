@@ -51,7 +51,7 @@
 
 
 
-  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <div id="top-carousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-content text-center">
       <h1>This is a main heading</h1>
       <p>Lorem Impsum is simply dummy text</p>
@@ -73,11 +73,11 @@
     </div>
 
     <!-- Carousel Controls -->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <a class="left carousel-control" href="#top-carousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <a class="right carousel-control" href="#top-carousel" role="button" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -143,12 +143,49 @@
       </div>
     </div> <!-- class="row product-tiles text-center"> -->
 
-    <div class="row testimonials">
-      <div class="col-sm-12">
+
+
+    <div class="testimonials row">
+      <div class="col-md-12">
         <h1>What Clients Say</h1>
-        <p>Lorem Impsum is simply dummy text of the printing and typsetting industry. Lorem ipsum has been. Lorem Impsum is simply dummy text of the printing and typsetting industry. Lorem ipsum has been.</p>
       </div>
+      <div class="col-md-12">
+      <div id="bottom-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-content text-center">
+        </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <p>Lorem Impsum is simply dummy text. Lorem Impsum is simply dummy text of the printing and typsetting industry. Lorem ipsum has been.</p>
+            <i>John Dove</i>
+          </div>
+          <div class="item">
+            <p>Lorem Impsum is simply dummy text. Lorem Impsum is simply dummy text of the printing and typsetting industry. Lorem ipsum has been.</p>
+            <i>Joanna Dove</i>
+          </div>
+          <div class="item">
+            <p>Lorem Impsum is simply dummy text. Lorem Impsum is simply dummy text of the printing and typsetting industry. Lorem ipsum has been.</p>
+            <i>Joaquin Dove</i>
+          </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <a class="left carousel-control" href="#bottom-carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#bottom-carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</div>
     </div>
+
+
+
+
+
     <div class="row contact-us">
       <div class="col-sm-12">
         <h1>Contact Us</h1>
@@ -189,7 +226,7 @@
           <textarea class="form-control" rows="6" placeholder="Message"></textarea>
         </div>
 
-      <button type="submit" class="btn btn-default send">Send</button>
+        <button type="submit" class="btn btn-default send">Send</button>
       </div>
     </form>
   </div>

@@ -30,7 +30,7 @@ body {
       margin-top: 6px;
     }
   }
-  #carousel-example-generic {
+  #top-carousel {
     font-family: $font-subtext;
     .carousel-content {
       position: absolute;
@@ -62,6 +62,14 @@ body {
         padding-left: 20px;
         padding-top: 10px;
         margin-top: 20px;
+      }
+    }
+    .left.carousel-control,
+    .right.carousel-control {
+      background-image: none;
+      .glyphicon.glyphicon-chevron-right,
+      .glyphicon.glyphicon-chevron-left {
+        color: $accent-blue;
       }
     }
   }
@@ -118,13 +126,23 @@ body {
       border-radius: 3px;
     }
   }
-
   .testimonials {
-    h1 {
-      margin-top: 80px;
+    height: 240px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+
+    #bottom-carousel {
+      font-family: $font-subtext;
+    }
+    .left.carousel-control,
+    .right.carousel-control {
+      background-image: none;
+      .glyphicon.glyphicon-chevron-right,
+      .glyphicon.glyphicon-chevron-left {
+        color: $grey-text;
+      }
     }
   }
-
   .contact-us {
     background: url("/blurry_black_background.jpg");
     color: $white;
