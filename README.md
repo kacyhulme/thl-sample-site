@@ -1,3 +1,6 @@
+hosted on heroku
+available to view at: https://lit-depths-73732.herokuapp.com/
+
 this app is a front end development demo using html, sass, bootstrap, jquery, javascript, express.js
 
 must have node installed
