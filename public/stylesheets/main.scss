@@ -110,11 +110,13 @@ body {
   }
 
   .portfolio {
+    h1 {
+      margin-bottom: 30px;
+    }
     background-color: $background-light-grey;
     padding: $padding-small;
     .image-tile {
-      /* margin: 20px;
-      padding: 20px;*/
+      margin: 20px 0 20px 0;
     }
     .btn.btn-default {
       background-color: $accent-blue;
@@ -129,8 +131,11 @@ body {
   .testimonials {
     height: 240px;
     padding-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 
+    h1 {
+      margin-bottom: 30px;
+    }
     #bottom-carousel {
       font-family: $font-subtext;
     }
@@ -157,11 +162,12 @@ body {
     .right {
       padding: 0 60px;
       text-align: right;
+
       .name.form-group {
-        width: 220px;
+        width: 100%;
       }
       .email.form-group {
-        width: 220px;
+        width: 100%;
       }
       input {
         width: 100%;
