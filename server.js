@@ -1,8 +1,8 @@
 var express = require("express");
 
-// Create our app
-
 var app = express();
+
+var port = process.env.PORT || 3000;
 
 app.use(express.static("public"));
 
@@ -22,6 +22,6 @@ app.get("/contact", function(req, res) {
   res.send("Service");
 });
 
-app.listen(3000, function() {
+app.listen(port, function() {
   console.log("Express server is up on port 3000");
 });
