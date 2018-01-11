@@ -1,0 +1,148 @@
+body #nav {
+  border: none;
+  margin-bottom: 0;
+  font-family: "Open Sans", sans-serif; }
+  body #nav .navbar-header {
+    margin-left: 60px; }
+  body #nav .navbar-right {
+    margin-right: 80px; }
+  body #nav .navbar-nav a {
+    padding-top: 24px;
+    padding-bottom: 24px; }
+  body #nav .active {
+    border-bottom: 3px solid #49cbcd; }
+    body #nav .active a {
+      color: #49cbcd;
+      background-color: #eee; }
+  body #nav .navbar-brand.title {
+    font-size: 28px;
+    color: #49cbcd;
+    font-family: "Lobster", cursive;
+    margin-top: 6px; }
+body #top-carousel {
+  font-family: "Open Sans", sans-serif; }
+  body #top-carousel .carousel-content {
+    position: absolute;
+    bottom: 20%;
+    top: 26%;
+    width: 80%;
+    margin: 0 10%;
+    z-index: 20;
+    color: white; }
+    @media (max-width: 776px) {
+      body #top-carousel .carousel-content {
+        top: 0px; } }
+    body #top-carousel .carousel-content h1 {
+      font-size: 42px;
+      padding-bottom: 10px; }
+    body #top-carousel .carousel-content p {
+      font-size: 16px;
+      line-height: 10px; }
+    body #top-carousel .carousel-content .btn.btn-default {
+      background-color: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+      font-size: 17px;
+      margin: 20px 0 40px 0;
+      border-radius: 3px;
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 10px;
+      margin-top: 20px; }
+  body #top-carousel .left.carousel-control,
+  body #top-carousel .right.carousel-control {
+    background-image: none; }
+    body #top-carousel .left.carousel-control .glyphicon.glyphicon-chevron-right,
+    body #top-carousel .left.carousel-control .glyphicon.glyphicon-chevron-left,
+    body #top-carousel .right.carousel-control .glyphicon.glyphicon-chevron-right,
+    body #top-carousel .right.carousel-control .glyphicon.glyphicon-chevron-left {
+      color: #49cbcd; }
+
+#main {
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+  #main .product-tiles {
+    color: #545454;
+    padding: 40px;
+    margin-top: 20px; }
+    #main .product-tiles .product-tile {
+      padding: 30px 15px 10px 15px; }
+    #main .product-tiles .icon-wrapper {
+      margin: auto;
+      border: 1px solid #49cbcd;
+      border-radius: 50px;
+      width: 75px;
+      height: 75px; }
+      #main .product-tiles .icon-wrapper .fa {
+        vertical-align: middle;
+        margin-top: 24px;
+        color: #49cbcd;
+        font-size: 28px; }
+    #main .product-tiles .btn.btn-default {
+      background-color: #49cbcd;
+      color: #fff;
+      border: none;
+      margin: 20px 0 40px 0;
+      border-radius: 3px; }
+  #main .portfolio {
+    background-color: #f6f6f6;
+    padding: 20px; }
+    #main .portfolio h1 {
+      margin-bottom: 30px; }
+    #main .portfolio .image-tile {
+      margin: 20px 0 20px 0; }
+    #main .portfolio .btn.btn-default {
+      background-color: #49cbcd;
+      color: #fff;
+      border: none;
+      margin: 20px 0 40px 0;
+      padding-right: 25px;
+      padding-left: 25px;
+      border-radius: 3px; }
+  #main .testimonials {
+    height: 240px;
+    padding-top: 80px;
+    margin-bottom: 100px; }
+    #main .testimonials h1 {
+      margin-bottom: 30px; }
+    #main .testimonials #bottom-carousel {
+      font-family: "Open Sans", sans-serif; }
+    #main .testimonials .left.carousel-control,
+    #main .testimonials .right.carousel-control {
+      background-image: none; }
+      #main .testimonials .left.carousel-control .glyphicon.glyphicon-chevron-right,
+      #main .testimonials .left.carousel-control .glyphicon.glyphicon-chevron-left,
+      #main .testimonials .right.carousel-control .glyphicon.glyphicon-chevron-right,
+      #main .testimonials .right.carousel-control .glyphicon.glyphicon-chevron-left {
+        color: #545454; }
+  #main .contact-us {
+    background: url("/blurry_black_background.jpg");
+    color: #fff; }
+    #main .contact-us h1 {
+      margin-top: 80px; }
+    #main .contact-us .left {
+      text-align: left;
+      padding: 0 60px; }
+    #main .contact-us .right {
+      padding: 0 60px;
+      text-align: right; }
+      #main .contact-us .right .name.form-group {
+        width: 100%; }
+      #main .contact-us .right .email.form-group {
+        width: 100%; }
+      #main .contact-us .right input {
+        width: 100%; }
+      #main .contact-us .right .message.form-group {
+        width: 100%; }
+        #main .contact-us .right .message.form-group .form-control {
+          width: 100%; }
+      #main .contact-us .right .btn.btn-default {
+        background-color: #49cbcd;
+        color: #fff;
+        border: none;
+        margin: 20px 0 40px 0;
+        padding-right: 40px;
+        padding-left: 40px;
+        border-radius: 3px; }
+
+/*# sourceMappingURL=main.css.map */
